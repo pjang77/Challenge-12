@@ -1,4 +1,15 @@
 {
+  "name": "challenge-12",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "db": "mysql -u root -p < db.sql",
+    "schema": "mysql -u root -p employee_tracker_db < schema.sql"
+  },
   "dependencies": {
     "inquirer": "^8.2.4",
     "mysql2": "^3.6.1"

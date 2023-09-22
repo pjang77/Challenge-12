@@ -1,0 +1,8 @@
+- Use the "promise" versions of npm packages and their functions/methods
+  NOTE: Search for "promise" on the npm documentation
+  Example:
+
+        const mysql = require("mysql2/promise");
+        // etc...
+
+- Use async/await rather than .then()
